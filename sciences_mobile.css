@@ -1,0 +1,71 @@
+@font-face {
+font-family: 'barlow_condensedmedium';
+src: url('font/barlowcondensed-medium-webfont.woff2') format('woff2'),url('font/barlowcondensed-medium-webfont.woff') format('woff');
+font-weight: normal;
+font-style: normal
+}
+body {
+background: #F4C9C9;
+font-family: 'barlow_condensedmedium';
+margin: 0
+}
+#logo {
+display:none
+}
+#logo_m {
+position: fixed;
+top: 1%;
+right: 2%;
+padding: 0;
+margin: 0;
+z-index: 2;
+width: 100px;
+border-radius: 0
+}
+#titre{                     
+font-size: 44px;
+color: #363062;
+display: block;
+text-align: center;
+text-shadow: 0px 3px 0.07em grey
+}
+nav {                       
+background : rgba(93, 80, 143, 0.42);
+border-radius: 100px;
+margin: 1% 2%
+}
+article {                   
+margin-bottom: 30%;
+text-align: center
+}
+#arc1{                     
+padding-top: 2%;
+margin-bottom: 20%
+}
+#arcfin {
+padding-bottom: 15%;
+margin-bottom: 0%
+}
+article > h2{
+font-size: 40px;
+color: #597D89;
+display: inline-block;
+margin:0 5%;
+text-shadow: 0px 2px 0.07em grey
+}
+article > p {
+color:#E9D5CA;
+display: block;
+text-align: justify;
+margin: 0 4%
+}
+img {
+border-radius: 40%;
+width: 80%
+}
+.mobile{
+margin-top: -40%
+}
+#mobile_bas {
+margin-bottom: 5%
+}

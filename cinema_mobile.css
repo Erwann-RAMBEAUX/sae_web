@@ -1,0 +1,89 @@
+@font-face {
+font-family:'barlow_condensedmedium';
+src:url(font/barlowcondensed-medium-webfont.woff2) format("woff2"),url(font/barlowcondensed-medium-webfont.woff) format("woff");
+font-weight:400;
+font-style:normal
+}
+body {
+font-family:'barlow_condensedmedium',sans-serif;
+background-image:url(images/culture/94449-digital-universe-space-purple-artist-planet-artwork-digital-art-hd-4k-5k-deviantart.jpg);
+background-size:300vh;
+margin:0
+}
+#logo {
+display:none
+}
+#logo_m {
+position:fixed;
+top:1%;
+right:2%;
+padding:0;
+margin:0;
+z-index:2;
+width:100px;
+border-radius:0
+}
+h1 {
+font-size:5vh;
+position:sticky
+}
+h2 {
+color:#ffc0cb
+}
+h1,h2 {
+text-align:center;
+text-shadow:1px 1px 2px purple,0 0 1em purple,0 0 .2em purple
+}
+section {
+border-top:2px solid #fff;
+font-size:2.5vh;
+color:#ffc0cb;
+overflow-y:scroll;
+height:70vh
+}
+section::-webkit-scrollbar {
+display:none
+}
+section p {
+line-height:4vh;
+margin:1em;
+padding-bottom:3em
+}
+.video {
+visibility:hidden;
+position:fixed;
+top:50vw;
+margin:1em;
+width:90vw;
+height:35vh;
+border:5px solid #ffc0cb
+}
+.hide {
+display:none
+}
+#btn:checked ~ #vid1,#btn:checked ~ .btn,#btn2:checked ~ #vid2,#btn2:checked ~ .btn2,#btn3:checked ~ #vid3,#btn3:checked ~ .btn3,#btn4:checked ~ #vid4,#btn4:checked ~ .btn4,#btn5:checked ~ #vid5,#btn5:checked ~ .btn5,#btn6:checked ~ #vid6,#btn6:checked ~ .btn6,#btn7:checked ~ #vid7,#btn7:checked ~ .btn7 {
+visibility:visible;
+display:unset
+}
+.btn_droite,.btn_gauche {
+position:relative;
+left:35vw;
+margin:auto;
+background-color:#5b508b;
+border-radius:10px;
+padding:5px 10px
+}
+label {
+cursor:pointer
+}
+.close {
+font-size:1em;
+background-color:#ffc0cb;
+padding:1.5vw;
+display:none;
+position:fixed;
+color:#000;
+z-index:1;
+top:54vw;
+left:1em
+}

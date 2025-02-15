@@ -1,0 +1,72 @@
+#logo{   
+display:none
+}
+#logo_m{
+display: inline-block;
+position: fixed;
+top: 1%;
+right: 2%;
+padding: 0;
+margin: 0;
+z-index: 2;
+width: 100px;
+border-radius: 0
+}
+span{
+display: none
+}
+article{
+position: relative;
+width: 400px;
+height: auto
+}
+.video{
+visibility:hidden;
+position:fixed;
+top:50vw;
+margin:1em;
+width:90vw;
+height:35vh;
+border:5px solid pink;
+left: 0
+}
+.close{
+font-size:1em;
+background-color:pink;
+padding:1.5vw;
+display:none;
+position:fixed;
+color:black;
+z-index:1;
+top:54vw;
+left:1em
+}
+.bouton_volant{
+left: 20vh;
+max-width:50vh;
+color:#FFCACA;
+position:relative;
+background-color:#372948;
+border-radius:10px;
+padding:5px 10px
+}
+.hide{
+display:none
+}
+#bouton1:checked ~ #clip1,#bouton1:checked ~ .bouton1,
+#bouton2:checked ~ #clip2,#bouton2:checked ~ .bouton2,
+#bouton3:checked ~ #clip3,#bouton3:checked ~ .bouton3,           
+#bouton4:checked ~ #clip4,#bouton4:checked ~ .bouton4,
+#bouton5:checked ~ #clip5,#bouton5:checked ~ .bouton5,
+#bouton6:checked ~ #clip6,#bouton6:checked ~ .bouton6,
+#bouton7:checked ~ #clip7,#bouton7:checked ~ .bouton7
+{
+visibility:visible;
+display:unset
+}
+.tout{
+margin:10px
+}
+label{
+cursor:pointer
+}

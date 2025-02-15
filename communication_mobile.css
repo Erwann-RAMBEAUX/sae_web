@@ -1,0 +1,37 @@
+@font-face {
+    font-family: 'barlow_condensedmedium';
+    src: url('font/barlowcondensed-medium-webfont.woff2') format('woff2'),url('font/barlowcondensed-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal
+}
+#logo {
+display:none
+}
+#logo_m {
+position: fixed;
+top: 1%;
+right: 2%;
+padding: 0;
+margin: 0;
+z-index: 2;
+width: 100px;
+border-radius: 0
+}
+body{
+    background-color:#7F669D;
+    font-family:'barlow_condensedmedium';
+    margin:0
+}
+section{
+    background-color: #BA94D1;
+    margin:20px;
+    padding:1%;
+}
+h1{
+    text-align:center;
+    background-color: #DEBACE
+}
+h2{
+    color:purple;
+    font-size:30px
+}

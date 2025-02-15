@@ -1,0 +1,68 @@
+#menu {
+width: 100%;
+color: white;
+display:block;
+position: sticky;
+margin: 0;
+top: 0;
+padding: 0;
+z-index: 1;
+background-color: black
+}
+#menu_t{
+display:none
+}
+#bande {
+color: white;
+font-size: 100px;
+margin: 0;
+margin-left: 2%;
+cursor: pointer
+}
+#box{
+display:none
+}
+.sous {
+text-align: left;
+display:none;
+background-color: black;
+margin: 0;
+margin-left: 15%;
+padding-bottom: 2%;
+font-size: 40px
+}
+.sous > li{
+padding-top: 1%;
+padding-bottom: 2%;
+display:block;
+color: goldenrod;
+border-bottom: 1px solid white
+}
+.sous > li > a {
+display: block;
+text-decoration: none;
+color: white;
+}
+#box:checked + .sous{
+display: block
+}
+.sous > li > a:active{
+color: skyblue
+}
+#sources > a{
+text-decoration:none;
+color: #f5f5f7;
+font-size: 22px
+}
+.source {
+background-color: black
+}
+.titrep {
+margin: 1% 0
+}
+#sources {
+text-align: center
+}
+.mesure{
+display: none
+}

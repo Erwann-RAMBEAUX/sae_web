@@ -1,0 +1,120 @@
+@font-face {
+font-family: 'barlow_condensedmedium';
+src: url('font/barlowcondensed-medium-webfont.woff2') format('woff2'), url('font/barlowcondensed-medium-webfont.woff') format('woff');
+font-weight: normal;
+font-style: normal
+}
+body{
+background-color: #FFECEF;
+font-family: 'barlow_condensedmedium';
+margin: 0
+}
+.tout{
+margin:50px
+}
+footer {
+left: 0;
+bottom: 0;
+width: 100%;
+text-align: center;
+margin-top: 50px;
+padding: 10px 0;
+background-color: #372948
+}
+footer > nav > a{
+color: #FFCACA;
+font-size: 30px;
+text-decoration: none
+}
+h1{          
+    font-size: 44px;
+    color: #363062;
+    display: inline-block;
+    margin: 1% 0px 0px 10%;
+    text-shadow: 0px 3px 0.07em grey;
+    text-align: center
+}
+p{
+    font-size: 20px
+}
+.mesure{
+    height: 60vh;
+    width: 10vw
+}
+article {
+    width: 100%;
+    line-height: 35px
+}
+div.ligne{
+    display: inline-block;
+    width: 80%;
+    height: auto;
+    padding: 5px
+}
+#logo_m{
+    display: none
+}
+#logo {
+    display: inline-block;
+    position: sticky;
+    top: 0;
+    padding: 0;
+    margin: 0;
+    margin-top: 2%;
+    margin-right: 0.9%;
+    z-index: 1;
+    width: 5%;
+    float: right
+}
+#logo > img{
+    border-radius: 0;
+    width: 80%
+}
+.video{
+    visibility:hidden;
+    position:fixed;
+    top:25vh;
+    left:110vh;
+    width:80vh;
+    height:50vh;
+    border:5px solid #251B37;
+    border-style: dotted
+}
+.close{
+    font-size:1em;
+    background-color:#372948;
+    padding:10px;
+    display:none;
+    position:fixed;
+    color:black;
+    z-index:1;
+    top:25vh;
+    left:110vh;
+    border-radius: 5px
+}
+.hide{
+    display:none
+}
+#bouton1:checked ~ #clip1,#bouton1:checked ~ .bouton1,
+#bouton2:checked ~ #clip2,#bouton2:checked ~ .bouton2,
+#bouton3:checked ~ #clip3,#bouton3:checked ~ .bouton3,           
+#bouton4:checked ~ #clip4,#bouton4:checked ~ .bouton4,
+#bouton5:checked ~ #clip5,#bouton5:checked ~ .bouton5,
+#bouton6:checked ~ #clip6,#bouton6:checked ~ .bouton6,
+#bouton7:checked ~ #clip7,#bouton7:checked ~ .bouton7
+{
+    visibility:visible;
+    display:unset
+}
+.bouton_volant{
+    left:50vh;
+    max-width:50vh;
+    color:#FFCACA;
+    position:relative;
+    background-color:#372948;
+    border-radius:10px;
+    padding:5px 10px
+}
+label{
+    cursor:pointer
+}

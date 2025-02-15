@@ -1,0 +1,94 @@
+@font-face {
+font-family: 'barlow_condensedmedium';
+src: url('font/barlowcondensed-medium-webfont.woff2') format('woff2'),url('font/barlowcondensed-medium-webfont.woff') format('woff');
+font-weight: normal;
+font-style: normal
+}
+body {
+background: #F4C9C9;
+font-family: 'barlow_condensedmedium';
+margin: 0
+}
+#logo_m{
+display: none
+}
+#logo {
+display: inline-block;
+position: sticky;
+top: 0;
+padding: 0;
+margin: 0;
+margin-top: 2%;
+margin-right: 0.9%;
+z-index: 1;
+width: 5%;
+float: right
+}
+#logo > img{
+border-radius: 0;
+width: 80%
+}
+#titre{                     
+font-size: 44px;
+color: #363062;
+display: inline-block;
+margin: 1% 0px 0px 10%;
+text-shadow: 0px 3px 0.07em grey
+}
+nav {                       
+background : rgba(93, 80, 143, 0.42);
+border-radius: 100px;
+margin: 1% 9%
+}
+article {                  
+margin-bottom: 10%
+}
+#arc1{                      
+padding-top: 2%
+}
+#arcfin {
+padding-bottom: 2%;
+margin-bottom: 0%
+}
+article > h2{
+font-size: 40px;
+color: #597D89;
+display: inline-block;
+margin:0 5%;
+text-shadow: 0px 2px 0.07em grey
+}
+article > p {
+color:#E9D5CA;
+margin: 0 45% 0 5%;
+display: block;
+text-align: justify
+}
+.gauche{                   
+padding-right: 5%;
+line-height: 200%
+}
+.droite{                   
+margin: 0;
+margin-right: 10%;
+margin-left: 20%;
+line-height: 200%;
+padding-left: 12%
+}
+.texte {
+margin-left: 40%        
+}
+img {
+border-radius: 40%
+}
+.img_droite {              
+display: inline-block;
+float: right;
+width: 20%;
+margin-right: 14%
+}
+.img_gauche {               
+display: inline-block;
+float: left;
+width:15%;
+margin-left: 20%
+}
